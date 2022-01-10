@@ -1,0 +1,9 @@
+DISCORD:
+  TOKEN: Your discord bot token
+  GUILD_NAME: Your guild name
+
+INSTAGRAM:
+  CHANNEL: Your Discord Channel Name
+  USERNAME: Your Instagram Username
+  # How often the bot should check for new messages
+  HOURS: 6
