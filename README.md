@@ -25,3 +25,6 @@ $ pip install <package>
 - Fill in the fields in config.yaml
 - Run `$ python src/main.py`
 - See result
+
+## Webhook
+If self hosting a Discord bot is not what you are looking for, check out this [webhook implementation](https://github.com/Floor-Gang/Instagram-to-discord)!
