@@ -14,6 +14,7 @@ from discord.ext.tasks import loop
 with open("config.yaml", "r", encoding="utf-8") as f:
     config = yaml.full_load(f)
 
+
 class Instagram(commands.Cog):
     def __init__(self, bot):
         self.bot = bot

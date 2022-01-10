@@ -17,6 +17,7 @@ bot = commands.Bot()
 with open("config.yaml", "r", encoding="utf-8") as f:
     config = yaml.full_load(f)
 
+
 @bot.event
 async def on_ready():
     """This gets printed on boot up"""
@@ -25,15 +26,16 @@ async def on_ready():
         bot.guilds,
         name=config["DISCORD"]["GUILD_NAME"],
     )
-    
+
     # Load instagram extension
     bot.load_extension("instagram")
 
     print(f"{bot.user} is connected to {guild.name} (id: {guild.id}) \n")
 
+
 if __name__ == "__main__":
 
-    TOKEN = (config["DISCORD"]["TOKEN"])
+    TOKEN = config["DISCORD"]["TOKEN"]
 
     # Main event loop
     try:
